@@ -1,0 +1,28 @@
+# Incident Response – NetSupport RAT (PCAP Analysis) – Confirmed IOCs
+
+Internal Host:
+10.11.26.183
+
+Domains:
+modandcrackedapk.com
+
+Resolved Infrastructure:
+193.42.38.139
+194.180.191.64
+
+Observed URI:
+/fakeurl.htm
+
+User-Agent:
+NetSupport Manager/1.3
+
+Server Response Header:
+NetSupport Gateway/1.8 (Windows NT)
+
+Protocol/Port:
+TCP/443
+
+Behavior:
+Repeated HTTP POST beaconing
+Command polling (CMD=POLL)
+Encoded C2 responses (CMD=ENCD, DATA=...)
